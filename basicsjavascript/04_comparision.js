@@ -5,7 +5,7 @@
 // console.log(2 != 1);
 
 // comparison with two different datatype - somtimes it give correct by converting that one datatype as per other value but 
-// somtimes it woulnt give correct answer  so its recomended to not to do that
+// somtimes it woulnt give correct answer  so its recomended to not to do that below comparison is 
 // console.log("2" > 1); // true
 // console.log("02" > 1); //true
 
