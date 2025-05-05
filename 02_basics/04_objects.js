@@ -79,6 +79,8 @@ const {courseInstructor: instructor} = course  // hum courseinstructor name to m
 console.log(courseInstructor);
 console.log(instructor);
 
+
+// Objects destructuring and JSON API
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
