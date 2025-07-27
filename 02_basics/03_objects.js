@@ -10,9 +10,9 @@ And their is another concept for singletons  which means that :-
 */
 
 // singleton 
-// Object.create  --- this is method we called it to declared  like constructor
-
-// object literals ---- keys: values -- decaration
+// Object.create  --- this is method we called it to declared  through constructor
+// *******************************************
+// object literals ---- (keys: values) -- decaration
 
 const mySym = Symbol("key1") // how to initiallise, decalred and access a symbole and gets  it access in object 
 
@@ -33,7 +33,7 @@ console.log(JsUser["email"])
 console.log(JsUser["full name"])
 console.log(JsUser[mySym])  // to access the symbole  from object
 
-// to do the modification the object elemts by using theb keys values
+// to do the modification the object elemts by using then keys values
 JsUser.email = "hitesh@chatgpt.com"
 // if you want to noboby can changes that particular object make  that object  keys freez
 // Object.freeze(JsUser)

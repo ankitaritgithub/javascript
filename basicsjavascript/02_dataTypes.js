@@ -1,6 +1,6 @@
 "use strict"; // treat all JS code as newer version
 
-// alert( 3 + 3) // we are using nodejs, not browser
+// alert( 3 + 3) // we are using nodejs, not browser, javascriot ka engine browser kea under chupa hua hai
 
 console.log(3 
     +

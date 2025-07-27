@@ -22,7 +22,7 @@ console.log(hundreds.toLocaleString('en-IN'));
 
  console.log("*******************Maths*************************")
 console.log(Math);
-console.log(Math.abs(-4));
+console.log(Math.abs(-4)); // minus become postive
 console.log(Math.round(4.6));
 console.log(Math.ceil(4.2));
 console.log(Math.floor(4.9));

@@ -24,6 +24,6 @@ console.log(undefined == 0); // false
 console.log(undefined > 0); //false
 console.log(undefined < 0); //false
 
-// ===  <-  check value along with datatype stcklly 
+// ===  <-  check value along with datatype stcklly ---- strick check
 
 console.log("2" === 2);

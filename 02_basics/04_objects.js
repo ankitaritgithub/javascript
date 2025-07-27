@@ -1,7 +1,7 @@
 // const tinderUser = new Object()  //  decalred object -- singleton object
 
 // 1. A ways to decalred and access the object the object and get it access
-const tinderUser = {} // non singleton object
+const tinderUser = {} // non-singleton object
 
 tinderUser.id = "123abc"
 tinderUser.name = "Sammy"
@@ -34,12 +34,14 @@ const obj6 = Object.assign({}, obj1, obj2, obj4)
 console.log(obj6)
 
 
-// we prefer to usde this 
+// we prefer to usde this  --spread operator
 
 const obj3 = {...obj1, ...obj2}
 console.log(obj3);
 
 
+
+//  when database sea value come
 const users = [
     {
         id: 1,
@@ -59,12 +61,12 @@ const users = [
 //Property-- objects
 users[1].email
 console.log(tinderUser);
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+console.log(Object.keys(tinderUser));  // basically here what happening that is we are taking all the keys and put in the array
+console.log(Object.values(tinderUser)); // same goes to value basically it also takes all the value and place it as array
+console.log(Object.entries(tinderUser)); // to get the array inside the array --basically fpr each property element convert it into the array
+console.log(tinderUser.hasOwnProperty('isLoggedIn')); //from the  object that is is that property exist or not please
 
-// Object destucturing
+//************* */ Object destucturing
 const course = {
     coursename: "js in hindi",
     price: "999",
