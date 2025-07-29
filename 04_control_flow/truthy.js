@@ -11,7 +11,7 @@ if (userEmail) {
 // false, 0, -0, BigInt 0n, "", null, undefined, NaN
 
 //truthy values
-// "0", 'false', " ", [], {}, function(){}
+// "0", 'false' -- basically the value that we get inside the atring are truly value, " ", [], {}, function(){}
 
 // if (userEmail.length === 0) {
 //     console.log("Array is empty");
@@ -24,6 +24,15 @@ if (Object.keys(emptyObj).length === 0) {
 }
 
 // Nullish Coalescing Operator (??): null undefined
+//  basically this is val1 = 5 ya 10 this ?? is ya basically ya toh yeh assign karoa ya toh 10 this we are using when 
+//  we are doing or using the database basically we  dont know what value we are getting is it null or or else the actual vale
+/**
+ * that is why in val1 case it is giving 5 value
+ * but in val2- case we are getting 10 value  (basically it check agar value aai hai toh use karea varna given value assign  kar deata hai)
+ * and in val3- case we are getting the undefined value (same logic)
+ * this is for null and undifen operator
+ * val1 = null ?? 10 ?? 20 in this case--- the first value is going to assign 
+ */
 
 let val1;
 // val1 = 5 ?? 10
@@ -34,6 +43,11 @@ val1 = null ?? 10 ?? 20
 
 
 console.log(val1);
+
+
+/* Nullish Coalescing Operator (??) and terniary operator  are different from each other
+from each other
+*/
 
 // Terniary Operator
 
